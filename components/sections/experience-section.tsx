@@ -18,7 +18,7 @@ export default function ExperienceSection({ experiences }: { experiences: Experi
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.3, delay: index * 0.06 }}
-            className="flex flex-col gap-3 rounded-[24px] border border-border bg-surface p-6 shadow-soft md:flex-row md:items-center md:justify-between"
+            className="flex flex-col gap-3 rounded-[28px] border border-border/80 bg-surface/95 p-6 shadow-soft md:flex-row md:items-center md:justify-between"
           >
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.24em] text-primary">{item.period}</p>

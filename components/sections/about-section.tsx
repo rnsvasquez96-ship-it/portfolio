@@ -20,7 +20,7 @@ export default function AboutSection({ profile }: AboutSectionProps) {
     >
       <SectionHeading eyebrow={profile.about.eyebrow} title={profile.about.title} />
       <div className="mt-8 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-        <div className="rounded-[24px] border border-border bg-surface p-8 text-text-secondary shadow-soft leading-8">
+        <div className="rounded-[28px] border border-border/80 bg-surface/95 p-8 leading-8 text-text-secondary shadow-soft">
           {profile.about.description}
         </div>
         <div className="rounded-[24px] border border-border bg-background p-8 shadow-soft">

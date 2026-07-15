@@ -17,8 +17,8 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.35, delay: index * 0.08 }}
-      whileHover={{ y: -6, scale: 1.01 }}
-      className="group flex h-full flex-col overflow-hidden rounded-[24px] border border-border bg-surface shadow-soft"
+      whileHover={{ y: -6, scale: 1.01, boxShadow: '0 30px 70px rgba(17,24,39,0.10)' }}
+      className="group flex h-full flex-col overflow-hidden rounded-[28px] border border-border/80 bg-surface/95 shadow-soft"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-background">
         <Image
@@ -28,7 +28,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           priority={index < 2}
           loading={index < 2 ? 'eager' : 'lazy'}
-          className="object-cover transition duration-300 group-hover:scale-105"
+          className="object-cover transition duration-500 group-hover:scale-105"
         />
       </div>
 

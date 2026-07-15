@@ -5,20 +5,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#10b981',
-        'primary-hover': '#059669',
-        accent: '#34d399',
-        background: '#f8fafc',
+        primary: '#111827',
+        'primary-hover': '#1f2937',
+        accent: '#1f2937',
+        background: '#fafafa',
         surface: '#ffffff',
-        'text-primary': '#0f172a',
-        'text-secondary': '#64748b',
-        border: '#e2e8f0'
+        'text-primary': '#111827',
+        'text-secondary': '#6b7280',
+        border: '#e5e7eb'
       },
       boxShadow: {
-        soft: '0 16px 48px rgba(15, 23, 42, 0.08)'
+        soft: '0 20px 60px rgba(17, 24, 39, 0.08)'
       },
       borderRadius: {
-        lg: '16px'
+        lg: '20px'
       }
     }
   },

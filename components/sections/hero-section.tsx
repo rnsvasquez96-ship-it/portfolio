@@ -15,13 +15,13 @@ export default function HeroSection({ profile }: HeroSectionProps) {
   const prefersReducedMotion = useReducedMotion();
 
   return (
-    <section id="hero" className="grid items-center gap-10 py-8 lg:grid-cols-[1.1fr_0.9fr] lg:py-16">
-      <motion.div initial={prefersReducedMotion ? false : { opacity: 0, y: 24 }} animate={prefersReducedMotion ? { opacity: 1 } : { opacity: 1, y: 0 }} transition={{ duration: 0.45, ease: 'easeOut' }}>
-        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-primary">{profile.hero.eyebrow}</p>
-        <h1 className="max-w-3xl text-4xl font-semibold leading-[0.95] text-text-primary sm:text-5xl lg:text-7xl">
+    <section id="hero" className="grid items-start gap-10 py-8 lg:grid-cols-[1.05fr_0.95fr] lg:py-16">
+      <motion.div initial={prefersReducedMotion ? false : { opacity: 0, y: 24 }} animate={prefersReducedMotion ? { opacity: 1 } : { opacity: 1, y: 0 }} transition={{ duration: 0.45, ease: 'easeOut' }} className="pt-6 lg:pt-10">
+        <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.32em] text-text-secondary">{profile.hero.eyebrow}</p>
+        <h1 className="max-w-3xl text-4xl font-semibold leading-[0.92] tracking-[-0.03em] text-text-primary sm:text-5xl lg:text-7xl">
           {profile.hero.title}
         </h1>
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-text-secondary">
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-text-secondary sm:text-xl">
           {profile.hero.description}
         </p>
         <div className="mt-8 flex flex-wrap gap-3" role="list" aria-label="Primary actions">

@@ -18,7 +18,7 @@ export default function ContactSection({ profile }: ContactSectionProps) {
       transition={{ duration: 0.35 }}
       className="py-12"
     >
-      <div className="rounded-[32px] border border-border bg-surface p-8 text-center shadow-soft">
+      <div className="rounded-[36px] border border-border/80 bg-surface/95 p-8 text-center shadow-soft">
         <p className="text-sm font-semibold uppercase tracking-[0.3em] text-primary">{profile.contact.eyebrow}</p>
         <h2 className="mt-3 text-3xl font-semibold text-text-primary sm:text-4xl">
           {profile.contact.calloutTitle}

@@ -15,7 +15,7 @@ export default function Button({ children, href, variant = 'primary', className 
   const baseClasses = 'inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium transition duration-200';
   const variantClasses =
     variant === 'primary'
-      ? 'bg-primary text-white shadow-soft hover:bg-primary-hover'
+      ? 'bg-primary text-white shadow-[0_12px_36px_rgba(17,24,39,0.16)] hover:bg-primary-hover'
       : 'border border-border bg-surface text-text-primary hover:bg-background';
 
   const combinedClasses = `${baseClasses} ${variantClasses} ${className}`.trim();
