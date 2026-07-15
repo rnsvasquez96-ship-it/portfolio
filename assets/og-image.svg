@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" rx="36" fill="#050816"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="url(#g)"/>
+  <path d="M180 438c82-98 158-148 247-148 98 0 140 58 212 58 60 0 103-24 143-61" stroke="#fff" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <circle cx="360" cy="252" r="70" fill="#fff" fill-opacity="0.16"/>
+  <circle cx="820" cy="270" r="96" fill="#7c3aed" fill-opacity="0.35"/>
+  <text x="180" y="212" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700">Alex Moreno</text>
+  <text x="180" y="276" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="30">Computer Engineering • Product Engineering</text>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+</svg>
