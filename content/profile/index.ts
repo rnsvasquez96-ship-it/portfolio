@@ -1,9 +1,9 @@
 import type { Stat } from '@/types';
 
 export const profile = {
-  name: 'Alex Moreno',
-  initials: 'AM',
-  resumeUrl: '/resume/resume.pdf',
+  name: 'Ranz Nathaniel Vasquez',
+  initials: 'RNV',
+  resumeUrl: '/images/Ranz_Vasquez_Resume.pdf.pdf',
   navigation: [
     { label: 'About', href: '/about' },
     { label: 'Work', href: '/projects' },
@@ -13,7 +13,7 @@ export const profile = {
   hero: {
     eyebrow: 'Computer Engineering • Product Engineering • Systems Thinking',
     title: 'Building software that feels effortless and performs like a machine.',
-    description: 'I’m a Computer Engineering graduate focused on creating reliable digital products that merge elegant interfaces, thoughtful architecture, and hardware-aware engineering.',
+    description: 'I’m Ranz Nathaniel Vasquez, a Computer Engineering graduate focused on creating reliable digital products that merge elegant interfaces, thoughtful architecture, and hardware-aware engineering.',
     primaryActionLabel: 'Explore selected work',
     primaryActionHref: '#work',
     secondaryActionLabel: 'Let’s connect',
@@ -66,9 +66,9 @@ export const profile = {
     eyebrow: 'Contact',
     title: 'Let’s build something thoughtful and durable.',
     description: 'I’m available for product engineering, frontend systems, and design-driven product work where clarity and craft matter.',
-    email: 'alex@alexmoreno.dev',
-    linkedin: 'https://www.linkedin.com/',
-    github: 'https://github.com/',
+    email: 'rnsvasquez96@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/ranz-nathaniel-vasquez-542a25172/',
+    github: 'https://github.com/rnsvasquez96-ship-it',
     calloutTitle: 'Interested in a thoughtful engineer who can bridge product and systems?',
     calloutDescription: 'Open to product engineering, frontend, and early-stage opportunities where quality matters.',
     availabilityTitle: 'Availability',
@@ -85,7 +85,7 @@ export const profile = {
     socialLinks: [
       {
         name: 'Email',
-        href: 'mailto:alex@alexmoreno.dev',
+        href: 'mailto:rnsvasquez96@gmail.com',
         description: 'For collaborations, product opportunities, and thoughtful conversations.'
       },
       {
@@ -117,7 +117,7 @@ export const profile = {
     title: 'Focused continuing education in modern product delivery.'
   },
   footer: {
-    copyright: '© 2026 Alex Moreno. Crafted for thoughtful product work.',
+    copyright: '© 2026 Ranz Nathaniel Vasquez. Crafted for thoughtful product work.',
     links: [
       { label: 'Projects', href: '#projects' },
       { label: 'Contact', href: '#contact' }

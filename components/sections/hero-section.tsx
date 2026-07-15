@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { ArrowRight, Cpu, Layers3, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useReducedMotion } from '@/hooks/use-reduced-motion';
@@ -44,6 +45,11 @@ export default function HeroSection({ profile }: HeroSectionProps) {
       </motion.div>
 
       <motion.div initial={prefersReducedMotion ? false : { opacity: 0, y: 24 }} animate={prefersReducedMotion ? { opacity: 1 } : { opacity: 1, y: 0 }} transition={{ duration: 0.55, delay: 0.08 }} className="space-y-4">
+        <div className="overflow-hidden rounded-[28px] border border-border bg-surface shadow-soft">
+          <div className="relative aspect-[4/5] w-full">
+            <Image src="/images/ranz-portrait.svg" alt="Portrait of Ranz Nathaniel Vasquez" fill priority sizes="(max-width: 768px) 100vw, 45vw" className="object-cover" />
+          </div>
+        </div>
         <div className="rounded-[28px] border border-border bg-surface p-6 shadow-soft">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-2 text-sm text-primary">
             <Sparkles size={16} /> {profile.hero.availabilityLabel}

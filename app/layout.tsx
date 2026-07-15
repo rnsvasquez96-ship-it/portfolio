@@ -7,24 +7,24 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' });
 
 export const metadata: Metadata = {
-  title: 'Alex Moreno | Computer Engineering Portfolio',
-  description: 'A premium portfolio for a Computer Engineering graduate building thoughtful software products with strong engineering, accessibility, and performance.',
-  metadataBase: new URL('https://alexmoreno.dev'),
+  title: 'Ranz Nathaniel Vasquez | Computer Engineering Portfolio',
+  description: 'A premium portfolio for Ranz Nathaniel Vasquez, a Computer Engineering graduate building thoughtful software products with strong engineering, accessibility, and performance.',
+  metadataBase: new URL('https://ranzvasquez.dev'),
   alternates: {
-    canonical: 'https://alexmoreno.dev'
+    canonical: 'https://ranzvasquez.dev'
   },
-  keywords: ['Alex Moreno', 'Computer Engineering portfolio', 'frontend engineer', 'product engineer', 'accessibility', 'performance'],
+  keywords: ['Ranz Nathaniel Vasquez', 'Computer Engineering portfolio', 'frontend engineer', 'product engineer', 'accessibility', 'performance'],
   openGraph: {
-    title: 'Alex Moreno | Computer Engineering Portfolio',
-    description: 'A premium portfolio for a Computer Engineering graduate building thoughtful software products with strong engineering, accessibility, and performance.',
+    title: 'Ranz Nathaniel Vasquez | Computer Engineering Portfolio',
+    description: 'A premium portfolio for Ranz Nathaniel Vasquez, a Computer Engineering graduate building thoughtful software products with strong engineering, accessibility, and performance.',
     type: 'website',
-    url: 'https://alexmoreno.dev',
-    siteName: 'Alex Moreno Portfolio'
+    url: 'https://ranzvasquez.dev',
+    siteName: 'Ranz Nathaniel Vasquez Portfolio'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Alex Moreno | Computer Engineering Portfolio',
-    description: 'A premium portfolio for a Computer Engineering graduate building thoughtful software products with strong engineering, accessibility, and performance.'
+    title: 'Ranz Nathaniel Vasquez | Computer Engineering Portfolio',
+    description: 'A premium portfolio for Ranz Nathaniel Vasquez, a Computer Engineering graduate building thoughtful software products with strong engineering, accessibility, and performance.'
   },
   robots: {
     index: true,

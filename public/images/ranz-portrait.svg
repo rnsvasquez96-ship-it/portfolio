@@ -1,0 +1,28 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" rx="56" fill="#0F172A"/>
+  <rect x="44" y="44" width="1112" height="1412" rx="44" fill="url(#bg)"/>
+  <circle cx="912" cy="332" r="220" fill="#F8FAFC" fill-opacity="0.16"/>
+  <circle cx="278" cy="1182" r="260" fill="#22C55E" fill-opacity="0.18"/>
+  <rect x="246" y="286" width="708" height="904" rx="44" fill="#F8FAFC" fill-opacity="0.88"/>
+  <ellipse cx="600" cy="526" rx="186" ry="214" fill="#1F2937"/>
+  <path d="M340 964C340 830 442 762 600 762C758 762 860 830 860 964V1040H340V964Z" fill="#111827"/>
+  <path d="M468 454C468 360 534 294 620 294C706 294 772 360 772 454V502C772 598 706 664 620 664C534 664 468 598 468 502V454Z" fill="#F4C28C"/>
+  <path d="M430 430C430 332 508 248 612 248C716 248 794 332 794 430V530C794 626 716 708 612 708C508 708 430 626 430 530V430Z" fill="#F4C28C"/>
+  <path d="M462 400C462 324 522 264 598 264C674 264 734 324 734 400V458C734 534 674 594 598 594C522 594 462 534 462 458V400Z" fill="#111827"/>
+  <path d="M512 448C512 400 548 364 596 364C644 364 680 400 680 448V488C680 536 644 572 596 572C548 572 512 536 512 488V448Z" fill="#F8D9B4"/>
+  <path d="M418 630C472 571 534 542 598 542C664 542 722 570 778 632L822 690C736 764 662 800 598 800C536 800 462 764 378 690L418 630Z" fill="#111827"/>
+  <path d="M474 622C470 584 498 556 536 556H660C698 556 726 584 722 622L712 736C708 776 676 804 636 804H560C520 804 488 776 484 736L474 622Z" fill="#F4C28C"/>
+  <path d="M428 1008H772" stroke="#94A3B8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M444 1094H756" stroke="#CBD5E1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M460 1176H740" stroke="#CBD5E1" stroke-width="12" stroke-linecap="round"/>
+  <rect x="822" y="920" width="212" height="168" rx="28" fill="#0F172A" fill-opacity="0.72"/>
+  <path d="M870 996L916 1040L970 970" stroke="#22C55E" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="604" y="1328" text-anchor="middle" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="700">RANZ</text>
+  <text x="604" y="1394" text-anchor="middle" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="600">Computer Engineering • Product Engineering</text>
+  <defs>
+    <linearGradient id="bg" x1="84" y1="76" x2="1068" y2="1452" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+</svg>
