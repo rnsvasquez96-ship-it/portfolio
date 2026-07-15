@@ -5,17 +5,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#111827',
-        'primary-hover': '#1f2937',
-        accent: '#1f2937',
-        background: '#fafafa',
-        surface: '#ffffff',
-        'text-primary': '#111827',
-        'text-secondary': '#6b7280',
-        border: '#e5e7eb'
+        primary: '#3b82f6',
+        'primary-hover': '#2563eb',
+        accent: '#3b82f6',
+        background: '#111111',
+        surface: '#171717',
+        'text-primary': '#f5f7fb',
+        'text-secondary': '#9ca3af',
+        border: '#2a2a2a'
       },
       boxShadow: {
-        soft: '0 20px 60px rgba(17, 24, 39, 0.08)'
+        soft: '0 20px 60px rgba(0, 0, 0, 0.35)'
       },
       borderRadius: {
         lg: '20px'

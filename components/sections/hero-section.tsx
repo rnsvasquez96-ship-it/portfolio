@@ -37,7 +37,7 @@ export default function HeroSection({ profile }: HeroSectionProps) {
         </div>
         <div className="mt-8 flex flex-wrap gap-3" aria-label="Core strengths">
           {profile.hero.badges.map((item) => (
-            <span key={item} className="rounded-full border border-border bg-surface px-3 py-2 text-sm text-text-secondary">
+            <span key={item} className="rounded-full border border-border bg-surface/70 px-3 py-2 text-sm text-text-secondary">
               {item}
             </span>
           ))}
@@ -57,7 +57,7 @@ export default function HeroSection({ profile }: HeroSectionProps) {
           <h2 className="text-2xl font-semibold text-text-primary">{profile.hero.highlightTitle}</h2>
           <p className="mt-2 text-text-secondary">{profile.hero.highlightDescription}</p>
         </div>
-        <div className="rounded-[28px] border border-border bg-background p-6 shadow-soft">
+        <div className="rounded-[28px] border border-border bg-background/70 p-6 shadow-soft">
           <div className="flex items-start gap-4 border-b border-border py-4">
             <div className="rounded-2xl bg-primary/10 p-3 text-primary"><Cpu size={20} /></div>
             <div>
